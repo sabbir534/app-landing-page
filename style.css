@@ -1,101 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
-:root{
-    --main-color:#242f51
+:root {
+  --main-color: #242f51;
 }
-
 
 /*========================================================
- INDEX OF  
+ INDEX OF
  =======
- 1) BASIC 
- 2) HEADER 
+ 1) BASIC
+ 2) HEADER
  3) HERO
  =========================================================*/
 
 /*========================================================
 1) BASIC
-=========================================================*/   
-p{
-    margin: 0;
+=========================================================*/
+p {
+  margin: 0;
 }
-.mybtn{
-    background-color: #2500f9;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 800;
-    /* border-radius: 25px; */
-    padding: 18px 35px;
+.mybtn {
+  background-color: #2500f9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  /* border-radius: 25px; */
+  padding: 18px 35px;
 }
-.mybtn:hover{
-    background-color: #feaa25;
-    color: #fff;
+.mybtn:hover {
+  background-color: #feaa25;
+  color: #fff;
 }
 /*========================================================
 2) HEADER
 =========================================================*/
-header{
-height: 135px;
-display: flex;
-align-items: center;
-
+header {
+  height: 135px;
+  display: flex;
+  align-items: center;
 }
-header .navbar-brand{
-    font-size: 30px;
-    font-weight: 800;
-    color: #fcae61;
+header .navbar-brand {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fcae61;
 }
-header .navbar-brand span{
-    color: var(--main-color);
+header .navbar-brand span {
+  color: var(--main-color);
 }
-header .nav-link{
-    color: var(--main-color);
-    margin: 0px 13px;
-
+header .nav-link {
+  color: var(--main-color);
+  margin: 0px 13px;
 }
-header .nav-link:hover,header .nav-link.active{
-    color: #fcae61;
-
+header .nav-link:hover,
+header .nav-link.active {
+  color: #fcae61;
 }
 /*========================================================
 2) HERO
 =========================================================*/
-#hero{
-    height: 90vh;
-    background: url('assets/img/herobg.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
+#hero {
+  height: 90vh;
+  background: url("assets/img/herobg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-#hero .htop{
-    background-color: #e2eaed;
+#hero .htop {
+  background-color: #e2eaed;
 }
-#hero .htop i{
-    background-color: #feaa25;
-    padding: 12px;
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-    margin-right: 12px;
+#hero .htop i {
+  background-color: #feaa25;
+  padding: 12px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 12px;
 }
-#hero .htop p{
-    color: var(--main-color);
+#hero .htop p {
+  color: var(--main-color);
 }
-#hero h2{
-    font-size: 60px;
-    font-weight: 600;
-    color: var(--main-color);
-    margin: 30px 0px;
+#hero h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin: 30px 0px;
 }
-#hero p{
-    color: #616368;
-    font-size: 18px;
+#hero p {
+  color: #616368;
+  font-size: 18px;
 }
-#hero .hbbox{
-    margin: 30px 0px;
+#hero .hbbox {
+  margin: 30px 0px;
 }
-#hero .screenimg{
-    width: 60%;
+#hero .screenimg {
+  width: 60%;
 }
